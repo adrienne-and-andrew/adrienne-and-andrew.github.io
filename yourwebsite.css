@@ -1,0 +1,472 @@
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: white;
+    overflow: hidden;
+    
+    position: fixed; /* Set the navbar to fixed position */
+    width: 100%;  /*Full width */
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #0070C0;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a.topnav-title {
+  float: left;
+  color: #0070C0;
+  text-align: left;
+  padding: 6px 20px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Change the color of links on hover */
+.topnav-right a:hover {
+/*  background-color: #ddd;*/
+  text-decoration: underline; 
+/*  color: black;*/
+}
+
+/* Add a color to the active/current link */
+/*
+.topnav a.active {
+  background-color: #0070C0;
+  color: white;
+}
+*/
+
+/* Right-aligned section inside the top navigation */
+.topnav-right {
+  float: right;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+html, body{
+    color:#000000; font-family: 'Lato', sans-serif !important; height: 100%;
+} 
+
+body
+{
+    font-family: 'Lato', sans-serif;
+    background: white;
+    font-size: 15px;
+    line-height: 1.65;
+}
+a {text-decoration:none;}
+
+h2, h3, h4, strong { font-family: 'Raleway', sans-serif; margin-bottom: 20px; }
+h4{ margin-bottom:10px; }
+h2{ font-weight: 500; color:#0070C0; }
+h3 { font-weight: 500; color:#0070C0; }
+
+p.lead { text-align: center; color: #727878; }
+p.lead a { color: #FFFFFF; text-decoration: underline; }
+p.lead a:hover { text-decoration: none; }
+ul.no-bullets { list-style-type: none; margin: 0px; padding: 0px; }
+hr { margin: 20px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity=20); }
+
+.delayedText {display: none;}
+
+/* Scroll Hint */
+/*
+.scroll-hint
+{
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    margin-left: -25px;
+    width: 25px;
+    height: 25px;
+    border: 2px solid #fff;
+    border-left: none;
+    border-top: none;
+    -moz-transform: rotate(45deg);
+    -ms-transform:rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+    
+}
+*/
+
+/** Firefox scrollbar customizations **/
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #57a3d9 #f7f7f7;
+}
+
+
+/* Chrome/Edge/Safari Scrollbar Customizations */
+body::-webkit-scrollbar {
+    width: 12px;
+}
+ 
+body::-webkit-scrollbar-track {
+    background:#f7f7f7;
+/*    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #57a3d9;
+  border-radius: 20px; 
+/*  outline: 1px solid #498EC2;*/
+  border: 2px solid #f7f7f7;  /* creates padding around scroll thumb */
+}
+
+
+
+/* Jumbotron Stylings */
+header{
+    background:linear-gradient(rgba(0, 0, 0, 0.32),rgba(0, 0, 0, 0.32)), url(background.jpg) no-repeat center center;
+    background-size:cover;
+    background-attachment: fixed;
+
+    
+    height: 88vh;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFFFFF;
+    display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+header h1{
+    font-size:62px;
+    border-bottom: 1px solid #FFFFFF; 
+    padding-bottom: 10px;
+    border-bottom-color: rgba(255,255,255,0); 
+    display: inline-block;
+    
+}
+
+header p{
+    font-size: 24px;
+}
+
+.engaged-section .container{
+    width: 100%;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+
+.venue-section h1{
+    color:white;
+    font-family: 'Raleway', sans-serif;
+}
+
+.venue-section h3{
+    color:white;
+}
+
+
+.venue-section h4{
+    color:white;
+}
+.venue-section .container
+{
+    
+    width: 100%;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+    
+    background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(venue.jpg) no-repeat center center;
+    background-size:cover;
+
+     height: 88vh;
+    
+
+}
+.venue-section .elements{
+    position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.registry-section .container
+{
+    
+    width: 100%;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+    
+
+}
+
+#amazon,#target,#rei,#surlatable,#bbb,#bestbuy,#ikea,#homedepot,#walmart {
+    filter: brightness(0%);
+    padding-bottom: 2%;
+}
+
+
+#rsvp
+{
+    width: 100%;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(venue2.jpg) no-repeat center center;
+    background-size:cover;
+    
+
+    height: 88vh;
+    padding-top:4.5%;
+    color:#0070C0;
+    
+}
+
+
+
+.btn-primary:hover{
+    background-color:#1e80c7 !important;
+}
+
+.btn-primary:active{
+    background-color:#1e80c7 !important;
+    color:white;
+}
+
+.btn-primary.active{
+    background-color:#1e80c7 !important;
+    color:white;
+}
+.btn-primary{
+    background-color:white;
+    color:#0070C0;
+}
+/*
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #8064A2 !important;
+}
+*/
+
+#button-toggle{
+    width:100%;
+}
+
+.form-row{
+    padding-bottom:24%;
+    
+}
+
+.form-control{
+    color:#0070C0;
+}
+#h2-format{
+    color:white;
+}
+
+#rsvp-format{
+    color:white;
+}
+
+#form-formatting{
+    text-align:left;
+}
+
+#hint-format{
+    color:lightgray;
+    font-size: 0.85em;
+}
+
+#label-format{
+    font-weight: normal;
+    font-size: 1.08em;
+}
+
+input, select {width:80%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
+#fname-format{
+    padding-left:0;
+    padding-right:0.5;
+}
+
+#lname-format{
+    padding-left:0;
+    padding-right:0;
+}
+
+#label-format{
+    color:white;
+}
+
+form {
+/*   Center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+
+}
+
+
+.attend-response{
+    color:white;
+}
+
+#num-guests-label{
+    color:white;
+}
+
+#num-guests{
+    color:#0070C0;
+}
+
+/* Button Styling */
+.btn-min-block
+{border-radius: 20px;
+    min-width: 125px;
+    line-height: 26px;
+    
+}
+.btn-clear
+{
+    color: #005591;
+    background-color:white;
+    border-color: #FFF; margin-right: 15px;
+    font-size: 15px;
+    
+}
+
+
+
+.btn-clear:visited{
+  color:#005591
+}
+
+.btn-clear:hover
+{
+    color: white;
+    background-color: #528fba;
+    border-color: #528fba; margin-right: 15px;
+}
+
+
+.item *{
+    text-align: left;
+}
+
+
+figure {
+    margin: 0;
+}
+
+.center-block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.img-rounded {
+    border-radius: 6px;
+}
+
+#outer-caption {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img {
+    vertical-align: middle;
+}
+
+img {
+    border: 0;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10, .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3, .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.container .container {position:absolute; width: 100%; left: 0; 
+    padding-left: 20%; padding-right: 20%; 
+    padding-top: 1%;}
+
+
+
+@media (max-width: 1366px) { 
+    
+
+    #amazon,#target,#rei,#surlatable,#bbb,#bestbuy,#ikea,#homedepot,#walmart {
+        filter: brightness(0%);
+        padding-bottom: 10%;
+    }
+
+   
+    header{
+/*
+         background:linear-gradient(rgba(0, 0, 0, 0.32),rgba(0, 0, 0, 0.32)), url(background-mobile.jpg) no-repeat center center;
+        background-size:cover;
+*/
+        background-attachment: scroll;
+
+    }
+    
+    form {
+      /*   Center the form on the page */
+      margin: 0 auto;
+      width: 100%;
+
+    }
+    
+    #rsvp
+    {
+    width: 100%;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(venue2.jpg) no-repeat center center;
+    background-size:cover;
+    padding-top:15%;
+    height: 100vh;
+    
+    color:#0070C0;
+    
+    }
+    
+    header h1{
+    font-size:50px;
+    border-bottom: 1px solid #FFFFFF; 
+    padding-bottom: 20px;
+    border-bottom-color: rgba(255,255,255,0); 
+    display: inline-block;
+    }
+    
+    header p{
+    font-size:20;    
+    }
+	.jumbotron:before {
+		bottom: 100px;
+		left: 20px;
+		right: 20px;
+		top: 20px;	
+	}
+	.jumbotron .container { top: 20%; padding-top: 0px; }
+	.jumbotron .scroll-down { width: 100%; right: 0px; }
+	
+	.container { padding: 60px 20px; min-width: 280px; }
+    
+    
+}    
+
