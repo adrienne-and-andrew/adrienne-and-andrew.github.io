@@ -129,7 +129,6 @@ header{
     background-size:cover;
     background-attachment: fixed;
 
-    
     height: 88vh;
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
@@ -288,11 +287,13 @@ header p{
     font-size: 1.08em;
 }
 
+/*
 input, select {width:80%;
     -webkit-box-sizing: border-box;
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+*/
 
 #fname-format{
     padding-left:0;
