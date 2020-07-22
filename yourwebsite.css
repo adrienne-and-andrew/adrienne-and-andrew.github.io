@@ -207,7 +207,7 @@ header p{
 
 }
 
-#amazon,#target,#rei,#surlatable,#bbb,#bestbuy,#ikea,#homedepot,#walmart {
+#amazon,#target,#williams-sonoma,#surlatable,#bbb,#bestbuy,#ikea,#homedepot,#walmart {
     filter: brightness(0%);
     padding-bottom: 2%;
 }
