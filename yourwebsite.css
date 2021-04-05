@@ -100,7 +100,7 @@ hr { margin: 20px 0px; border-color: #727878; opacity: 0.2; filter:alpha(opacity
 /** Firefox scrollbar customizations **/
 * {
   scrollbar-width: thin;
-  scrollbar-color: #57a3d9 #f7f7f7;
+  scrollbar-color: #0f65a3 #f7f7f7;
 }
 
 
@@ -115,7 +115,7 @@ body::-webkit-scrollbar-track {
 }
  
 body::-webkit-scrollbar-thumb {
-  background-color: #57a3d9;
+  background-color: #0f65a3;
   border-radius: 20px; 
 /*  outline: 1px solid #498EC2;*/
   border: 2px solid #f7f7f7;  /* creates padding around scroll thumb */
@@ -125,11 +125,12 @@ body::-webkit-scrollbar-thumb {
 
 /* Jumbotron Stylings */
 header{
-    background:linear-gradient(rgba(0, 0, 0, 0.32),rgba(0, 0, 0, 0.32)), url(BW1.jpg) no-repeat center center;
+    background:linear-gradient(rgba(0, 0, 0, 0.32),rgba(0, 0, 0, 0.32)), url(mainBG.jpg) no-repeat center center;
     background-size:cover;
+    background-position: 0px -20px;
     background-attachment: fixed;
 
-    height: 88vh;
+    height: 100vh;
     font-family: 'Open Sans', sans-serif;
     color: #FFFFFF;
     display: flex;
@@ -181,9 +182,9 @@ header p{
 	align-items: center;
     text-align: center;
     
-    background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(venue.jpg) no-repeat center center;
+    background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(scbg4.jpg) no-repeat center center;
     background-size:cover;
-
+    
      height: 88vh;
     
 
@@ -219,11 +220,12 @@ header p{
     justify-content: center;
 	align-items: center;
     text-align: center;
-    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(reception1.jpg) no-repeat center center;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(scbg5.jpg) no-repeat center center;
     background-size:cover !important;
     
     
     padding-top:4.5%;
+/*    color:#09578f;*/
     color:#0070C0;
     
 }
@@ -231,21 +233,22 @@ header p{
 
 
 .btn-primary:hover{
-    background-color:#1e80c7 !important;
+    background-color:#09578f !important;
 }
 
 .btn-primary:active{
-    background-color:#1e80c7 !important;
+    background-color:#09578f !important;
     color:white;
 }
 
 .btn-primary.active{
-    background-color:#1e80c7 !important;
+    background-color:#09578f !important;
     color:white;
 }
 .btn-primary{
     background-color:white;
-    color:#0070C0;
+    color:#09578f;
+/*    color:#0070C0;*/
 }
 /*
 .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
@@ -263,7 +266,8 @@ header p{
 }
 
 .form-control{
-    color:#0070C0;
+    color:#004b80;
+/*    color:#0070C0;*/
 }
 #h2-format{
     color:white;
@@ -326,7 +330,8 @@ form {
 }
 
 #num-guests{
-    color:#0070C0;
+/*    color:#0070C0;*/
+    color:#004b80;
 }
 
 /* Button Styling */
@@ -354,8 +359,8 @@ form {
 .btn-clear:hover
 {
     color: white;
-    background-color: #528fba;
-    border-color: #528fba; margin-right: 15px;
+    background-color: #004b80;
+    border-color: #004b80; margin-right: 15px;
 }
 
 
@@ -419,6 +424,7 @@ img {
          background:linear-gradient(rgba(0, 0, 0, 0.32),rgba(0, 0, 0, 0.32)), url(background-mobile.jpg) no-repeat center center;
         background-size:cover;
 */
+            background-position: center;
         background-attachment: scroll;
 
     }
@@ -436,7 +442,7 @@ img {
     justify-content: center;
 	align-items: center;
     text-align: center;
-    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(reception1.jpg) no-repeat center center;
+    background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(scbg5.jpg) no-repeat center center;
     background-size:cover;
 /*    padding-top:15%;*/
     padding-top:6em;
