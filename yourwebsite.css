@@ -153,65 +153,25 @@ header p{
     font-size: 24px;
 }
 
-.engaged-section .container{
+#venue-pic {
+    width: 20%;
+    height: 20%;
+}
+
+.venue-section .container{
     width: 100%;
     justify-content: center;
 	align-items: center;
     text-align: center;
 }
 
-
-.venue-section h1{
-    color:white;
-    font-family: 'Raleway', sans-serif;
-}
-
-.venue-section h3{
-    color:white;
-}
+#venue-info {
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
 
-.venue-section h4{
-    color:white;
-}
-.venue-section .container
-{
-    
-    width: 100%;
-    justify-content: center;
-	align-items: center;
-    text-align: center;
-    
-    background:linear-gradient(rgba(0, 0, 0, 0.65),rgba(0, 0, 0, 0.65)), url(mucky.jpg) no-repeat center center;
-    background-size:cover;
-    
-    height: 88vh;
-    
-
-}
-.venue-section .elements{
-    position: relative;
-  top: 50%;
-  -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
-}
-
-.registry-section .container
-{
-    
-    width: 100%;
-    justify-content: center;
-	align-items: center;
-    text-align: center;
-    
-
-}
-
-#amazon,#target,#williams-sonoma,#surlatable,#bbb,#bestbuy,#ikea,#homedepot,#walmart {
-    filter: brightness(0%);
-    padding-bottom: 2%;
-}
 
 
 #rsvp
@@ -224,12 +184,24 @@ header p{
     background-size:cover !important;
     
     
-    padding-top:4.5%;
+    padding-top:2%;
 /*    color:#09578f;*/
     color:#0070C0;
     
 }
 
+.registry-section .container
+{
+    width: 100%;
+    justify-content: center;
+	align-items: center;
+    text-align: center;
+}
+
+#amazon,#target,#williams-sonoma {
+    filter: brightness(0%);
+    padding-bottom: 2%;
+}
 
 
 .btn-primary:hover{
@@ -413,10 +385,6 @@ img {
 @media (max-width: 1366px) { 
     
 
-    #amazon,#target,#rei,#surlatable,#bbb,#bestbuy,#ikea,#homedepot,#walmart {
-        filter: brightness(0%);
-        padding-bottom: 1.5em;
-    }
     
    
     header{
@@ -428,6 +396,19 @@ img {
         background-attachment: scroll;
 
     }
+
+    
+
+    #venue-pic {
+        width: 80%;
+        height: 80%;
+    }
+
+    #venue-info {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
     
     form {
       /*   Center the form on the page */
@@ -445,7 +426,7 @@ img {
     background:linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(reception.jpg) no-repeat center center;
     background-size:cover;
 /*    padding-top:15%;*/
-    padding-top:6em;
+    padding-top:3em;
     color:#0070C0;
     
     }
@@ -475,7 +456,7 @@ img {
 	.jumbotron .container { top: 20%; padding-top: 0px; }
 	.jumbotron .scroll-down { width: 100%; right: 0px; }
 	
-	.container { padding: 60px 20px; min-width: 280px; }
+	.container { padding: 10px 20px; min-width: 280px; }
     
     
 }    
