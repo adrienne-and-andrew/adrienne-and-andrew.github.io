@@ -281,6 +281,16 @@ input, select {width:80%;
     padding-right:0;
 }
 
+#email-format{
+    padding-left:0;
+    padding-right:0.5;
+}
+
+#cell-format{
+    padding-left:0;
+    padding-right:0;
+}
+
 #label-format{
     color:white;
 }
